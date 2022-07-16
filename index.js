@@ -14,45 +14,48 @@ inquirer
         },
         {
             type: 'input',
-            message: question[1],
+            message: questions[1],
             name: 'description',
         },
         {
             type: 'input',
-            message: question[2],
+            message: questions[2],
             name:'installation',
         },
         {
             type: 'input',
-            message: question[3],
+            message: questions[3],
             name: 'usage',
         },
         {
             type: 'input',
-            message: question[4],
+            message: questions[4],
             name: 'license',
         },
         {
             type: 'input',
-            message: question[5],
+            message: questions[5],
             name: 'contribution',
         },
         {
             type: 'input',
-            message: question[6],
+            message: questions[6],
             name: 'test',
         },
         {
             type: 'input',
-            message: question[7],
+            message: questions[7],
             name: 'github',
         },
         {
             type: 'input',
-            message: question[8],
+            message: questions[8],
             name: 'email',
-        }
-    ]);
+        },
+    ])
+    .then((data) => {
+        console.log(data);
+    })
 
 function writeToFile(fileName, data) {
 
