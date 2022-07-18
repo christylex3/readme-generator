@@ -56,7 +56,7 @@ function init() {
                 type: 'list',
                 message: questions[4],
                 name: 'license',
-                choices: ['Apache', 'Boost Software License 1.0', 'GNU AGPLv3', 'GNU GPLv3', 'MIT License', 'Mozilla Public License 2.0', 'The Unilicense', 'None'],
+                choices: ['Apache 2', 'BSD', 'GPL', 'MIT', 'None'],
             },
             {
                 type: 'input',

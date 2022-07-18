@@ -1,17 +1,14 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-var licenseBadge;
-
 function renderLicenseBadge(license) {
+  if () {
 
-//   if () {
+  } else if (license == "Mit License") {
+    return `![GitHub](https://img.shields.io/github/license`;
+  } else {
 
-//   } else if (data.license == "Mit License") {
-//     licenseBadge = ![GitHub](https://img.shields.io/github/license/christylex3/readme-generator);
-//   } else {
-
-//   }
-// }
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -24,6 +21,7 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}\n
+  ${renderLicenseBadge(data.license)}/${data.githubUsername}/${data.title})\n
   ## Description\n${data.description}\n
   ## Table of Contents\n
   * [Installation](#installation)\n
