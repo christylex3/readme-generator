@@ -5,10 +5,10 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // An array of questions for user input
 const questions = [
-    "What is the title of your project?",
-    "What is the purpose of this project?",
-    "What installation is required for this project?",
-    "How do you use this project?",
+    "What is the title of your application?",
+    "How would you describe the application?",
+    "What installation is required for this application?",
+    "How do you use this application?",
     "What is this project licensed under?",
     "How do you want others to contribute to the project?",
     "What are the testing instructions?",
