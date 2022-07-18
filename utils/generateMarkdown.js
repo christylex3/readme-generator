@@ -26,7 +26,7 @@ function generateMarkdown(data) {
   ## License\n${data.license}\n
   ## Contribution\n${data.contribution}
   ## Tests\n${data.test}\n
-  ## Questions\nIf you have any questions and want to reach me, contact me here at [${data.github}@github.com](github.com/${data.github}) or ${data.email}.
+  ## Questions\nIf you have any questions and want to reach me, contact me here at [${data.githubUsername}@github.com](github.com/${data.githubUsername}) or ${data.email}.
 `;
 }
 
