@@ -80,7 +80,6 @@ function init() {
             },
         ])
         .then((data) => {
-            // console.log(data);
             writeToFile("README.md", data);
         })
         .catch((error) => {
