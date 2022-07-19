@@ -67,6 +67,7 @@ function init() {
                 type: 'input',
                 message: questions[6],
                 name: 'test',
+                default: 'npm test',
             },
             {
                 type: 'input',
