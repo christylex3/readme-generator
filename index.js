@@ -46,6 +46,7 @@ function init() {
                 type: 'input',
                 message: questions[2],
                 name: 'installation',
+                default: 'npm i'
             },
             {
                 type: 'input',
