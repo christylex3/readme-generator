@@ -34,7 +34,7 @@ function renderLicenseSection(data) {
 
 // Generates markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}\n\n${renderLicenseBadge(data)}## Description\n\n${data.description}\n\n## Table of Contents\n\n* [Installation](#installation)\n* [Usage](#usage)\n${renderLicenseLink(data)}* [Contribution](#contribution)\n* [Tests](#tests)\n* [Questions](#questions)\n\n## Installation\n\n\`\`\`\n${data.installation}\n\`\`\`\n\n## Usage\n\n${data.usage}\n\n${renderLicenseSection(data)}## Contribution\n\n${data.contribution}\n\n## Tests\n\n${data.test}\n\n## Questions\n\nIf you have any questions and want to reach me, contact me here at [${data.githubUsername}@github.com](https://github.com/${data.githubUsername}) or [${data.email}](${data.email}).
+  return `# ${data.title}\n\n${renderLicenseBadge(data)}## Description\n\n${data.description}\n\n## Table of Contents\n\n* [Installation](#installation)\n* [Usage](#usage)\n${renderLicenseLink(data)}* [Contribution](#contribution)\n* [Tests](#tests)\n* [Questions](#questions)\n\n## Installation\n\n\`\`\`\n${data.installation}\n\`\`\`\n\n## Usage\n\n${data.usage}\n\n${renderLicenseSection(data)}## Contribution\n\n${data.contribution}\n\n## Tests\n\n${data.test}\n\n## Questions\n\nIf you have any questions and want to reach me, email me at [${data.email}](${data.email}). Also, you can check out my repository [here](https://github.com/${data.githubUsername}).
 `;
 }
 
