@@ -27,7 +27,7 @@ function renderLicenseLink(data) {
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
   if (data.license !== "None") {
-    return `## License\nThis application is licensed under ${data.license}.\n\n`
+    return `## License\n\nThis application is licensed under ${data.license}.\n\n`
   }
   return ``;
 }
